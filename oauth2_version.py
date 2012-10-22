@@ -52,9 +52,10 @@ else:
     sha_new = sha = sha1
 
 
-import _version
+#import _version
 
-__version__ = _version.__version__
+#__version__ = _version.__version__
+__version__ = '0.1'
 
 OAUTH_VERSION = '1.0'  # Hi Blaine!
 HTTP_METHOD = 'GET'
